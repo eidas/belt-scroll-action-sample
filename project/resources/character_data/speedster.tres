@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/character_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+character_name = "スピードスター"
+max_hp = 80
+attack_power = 7
+move_speed = 160.0
+dash_speed = 260.0
+jump_force = 320.0
+combo_count = 4
+grab_power = 15
+special_hp_cost = 12
+special_damage = 20

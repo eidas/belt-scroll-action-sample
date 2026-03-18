@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/character_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+character_name = "ファイター"
+max_hp = 100
+attack_power = 10
+move_speed = 120.0
+dash_speed = 200.0
+jump_force = 300.0
+combo_count = 3
+grab_power = 20
+special_hp_cost = 15
+special_damage = 25
