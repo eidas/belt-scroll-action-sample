@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/character_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+character_name = "グラップラー"
+max_hp = 130
+attack_power = 14
+move_speed = 90.0
+dash_speed = 160.0
+jump_force = 250.0
+combo_count = 3
+grab_power = 35
+special_hp_cost = 20
+special_damage = 30
